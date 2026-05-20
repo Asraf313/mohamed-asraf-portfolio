@@ -887,7 +887,7 @@ body {
     color: var(--primary-light);
     font-size: 0.95rem;
     font-weight: 500;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 /* Footer */
@@ -963,16 +963,6 @@ body {
 
     50% {
         transform: translateY(20px);
-    }
-}
-
-@keyframes expandWidth {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
     }
 }
 
